@@ -67,7 +67,6 @@ pokemon()
          <h3></h3>
          <span></span>
          </article>
-         <div class="col"><img src="https://static.vecteezy.com/system/resources/thumbnails/011/020/248/small/versus-illustration-with-fire-sparks-or-smoke-fire-explosions-and-letters-vs-versus-background-png.png" alt=""></div>
          `
          p1 = datos1;
          console.log(p1);
@@ -81,7 +80,7 @@ pokemon()
          //console.log(img);
          //  console.log(nombre);
          document.getElementById("pk2").innerHTML=`
-         <article id="batalla">
+         <article id="batalla1">
          <div class="image-container">
          <h2>${nombre}</h2>
          <img src="${img}" alt="">

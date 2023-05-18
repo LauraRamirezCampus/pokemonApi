@@ -14,7 +14,20 @@ h1{
 }
 #batalla{
     padding: 10px;
-    margin-left: 70px; 
+    margin-left: 500px; 
+    
+    border: 1px solid rgba(122, 122, 122, 0.13);
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: aliceblue;
+    
+    /* transition: all 1s; */
+
+}
+#batalla1{
+    padding: 10px;
+    margin-right: 600px; 
     border: 1px solid rgba(122, 122, 122, 0.13);
     width: 200px;
     border-radius: 10px;
@@ -42,7 +55,7 @@ h1{
     width: 200px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px rgba(206, 68, 68, 0.2);
-    margin-bottom: 70px;
+    margin-top: 70px;
     background-color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -63,7 +76,7 @@ h1{
 
 }
 .input-group{
-    margin-left:270px ;
+    margin-left:500px ;
     margin-bottom: 50px;
     width: 40%;
      }/*
