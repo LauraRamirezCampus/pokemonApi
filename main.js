@@ -60,8 +60,7 @@ function pokemon() {
                  <h3 class="uno">Experiencia: ${data.base_experience}</h3>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
