@@ -1,8 +1,9 @@
-/* body{
+  body{
     margin: 0;
     padding: 0;
-    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/592/52/desktop-wallpaper-awesome-pokemon-pokemon-home.jpg")
-}  */
+    background-color: rgba(92, 105, 113, 0.242);
+
+} 
 h1{
     text-align: center;
 }
@@ -10,52 +11,72 @@ h1{
 
 .image-container img{
     width: 200px;
-    padding: 0;
+    padding: 50;
+
+}
+#img2{
+    margin-left: 40px;
 }
 #batalla{
     padding: 10px;
-    margin-left: 500px; 
-    
+    margin-left: 500px;
+
     border: 1px solid rgba(122, 122, 122, 0.13);
     width: 200px;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 4px rgba(249, 90, 16, 0.718);
     background-color: aliceblue;
-    
+
     /* transition: all 1s; */
 
 }
 #batalla1{
     padding: 10px;
-    margin-right: 600px; 
-    border: 1px solid rgba(122, 122, 122, 0.13);
+    margin-right: 600px;
+    border: 1px solid rgb(8, 7, 7);
     width: 200px;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 4px rgba(237, 98, 5, 0.813);
     background-color: aliceblue;
-    
+
     transition: all 1s;
 
+
 }
-#batalla:hover{
+/* #batalla:hover{
     padding: 0px;
-    margin-left: 70px; 
+    margin-left: 70px;
     border: 1px solid rgba(122, 122, 122, 0.13);
     width: 200px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    background-color: aliceblue;
+    background-color: aliceblue; */
     /* -webkit-transform: rotate(360deg);transform: rotate(360deg); */
 
-}
+
 #general{
     padding: 10px;
     /* margin-left: 200px; */
     border: 1px solid rgba(122, 122, 122, 0.13);
     width: 200px;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(206, 68, 68, 0.2);
+    box-shadow: 2px 2px 2px 4px rgba(235, 118, 0, 0.624);
     margin-top: 70px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.pokis{
+   margin: 0 auto;
+    padding: 10px;
+    /* margin-left: 200px; */
+    border: 1px solid rgba(122, 122, 122, 0.13);
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 4px rgba(229, 84, 5, 0.626);
+    margin-top: 0px;
+    margin-bottom: 60px;
     background-color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -79,7 +100,38 @@ h1{
     margin-left:500px ;
     margin-bottom: 50px;
     width: 40%;
-     }/*
+     }
+#gan{
+    margin-left: 735px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 200, 0);
+}
+.bat{
+    width: 200px;
+    margin-left: 800px;
+    margin-bottom: 20px;
+
+
+
+}
+h2,h3{
+    display: flex;
+
+    justify-content: center;
+}
+.pk{
+    margin-left: 0px;
+}
+.uno{
+    background-color: rgb(255, 119, 0);
+    margin: 0;
+}
+.dos{
+    background-color: rgb(240, 248, 148);
+    margin: 0;
+}
+     /*
 #imagen {
     position:relative;
 }
